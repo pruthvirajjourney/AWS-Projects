@@ -1,7 +1,7 @@
 # AWS-Projects
 Developed a scalable, secure, and cost-effective cloud infrastructure on AWS, leveraging services like EC2, S3, RDS, and Lambda for optimized performance and reliability.
 
-# Aboutr AWS
+# About AWS
 AWS (Amazon Web Services) projects typically revolve around the deployment, management, and scaling of cloud-based applications and infrastructure. Here are some general categories of AWS projects, along with a brief description of each:
 
 ### 1. **Web Application Hosting**
