@@ -8,10 +8,10 @@ AWS (Amazon Web Services) projects typically revolve around the deployment, mana
    Projects that use AWS services like **EC2**, **Elastic Load Balancing (ELB)**, and **S3** to host scalable, secure, and highly available web applications. This often includes:
    - Setting up servers (EC2 instances) to host your application.
    - Using **RDS** or **DynamoDB** for database management.
-   - **S3** for static content storage (e.g., images, files).
+    **S3** for static content storage (e.g., images, files).
    - **Route 53** for DNS management.
 
-#### 2. **Data Storage and Backup Solutions**
+### 2. Data Storage and Backup Solutions
    Projects involving reliable and scalable data storage using services like **S3**, **Glacier**, or **EBS**. Example use cases:
    - Creating a backup solution that automatically stores critical data in AWS S3 or Glacier.
    - Configuring versioning and lifecycle policies to optimize storage cost.
