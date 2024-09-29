@@ -4,7 +4,7 @@ Developed a scalable, secure, and cost-effective cloud infrastructure on AWS, le
 # About AWS
 AWS (Amazon Web Services) projects typically revolve around the deployment, management, and scaling of cloud-based applications and infrastructure. Here are some general categories of AWS projects, along with a brief description of each:
 
-### 1. Web Application Hosting
+# 1. Web Application Hosting
    Projects that use AWS services like **EC2**, **Elastic Load Balancing (ELB)**, and **S3** to host scalable, secure, and highly available web applications. This often includes:
    - Setting up servers (EC2 instances) to host your application.
    - Using **RDS** or **DynamoDB** for database management.
