@@ -224,7 +224,7 @@ By following these steps, you can manage EBS volumes efficiently on AWS.
 
 This allows you to control access to your EC2 instances effectively and securely.
 
-#Here are the steps to create and configure a load balancer in AWS:
+# Here are the steps to create and configure a load balancer in AWS:
 
 The term "blancer steps" appears to be a typo. I assume you meant "load balancer steps" in AWS. A load balancer in AWS distributes incoming traffic across multiple targets (like EC2 instances) to ensure high availability and fault tolerance for applications.
 
