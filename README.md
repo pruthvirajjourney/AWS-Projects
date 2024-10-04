@@ -273,3 +273,41 @@ The term "blancer steps" appears to be a typo. I assume you meant "load balancer
    - You can now send requests to the load balancer, which will distribute traffic to the registered targets.
 
 # AWS LAMBDA
+
+
+
+Here is a Lambda function using Python 3.9 to **start** EC2 instances:
+
+### AWS Lambda Code (Python 3.9)
+
+```python
+import boto3
+region = 'us-west-1'
+instances = ['i-12345cb6de4f78g9h', 'i-08ce9b2d7eccf6d26']
+ec2 = boto3.client('ec2', region_name=region)
+
+def lambda_handler(event, context):
+    ec2.stop_instances(InstanceIds=instances)
+    print('stopped your instances: ' + str(instances))
+```
+
+### Steps to Deploy:
+1. **Create a Lambda function** in the AWS Console.
+   - Choose **Python 3.9** as the runtime.
+   - Add the code above to the function.
+
+2. **IAM Role**: Ensure the Lambda function has a role with the necessary EC2 permissions (`ec2:StartInstances`). Example policy:
+   ```json
+   {
+     "Version": "2012-10-17",
+     "Statement": [
+       {
+         "Effect": "Allow",
+         "Action": [
+           "ec2:StartInstances"
+         ],
+         "Resource": "*"
+       }
+     ]
+   }
+   ```
