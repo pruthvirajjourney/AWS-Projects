@@ -291,7 +291,7 @@ Pay-Per-Use Pricing: With AWS Lambda, you only pay for the compute time consumed
 Support for Multiple Languages: Lambda supports several programming languages, including Python, Node.js, Java, C#, and Go. This allows you to use the language of your choice to develop your serverless applications.
 
 To Stop Instance
-'''python
+```python
 import boto3
 region = 'us-west-1'
 instances = ['i-12345cb6de4f78g9h', 'i-08ce9b2d7eccf6d26']
@@ -300,9 +300,9 @@ ec2 = boto3.client('ec2', region_name=region)
 def lambda_handler(event, context):
     ec2.stop_instances(InstanceIds=instances)
     print('stopped your instances: ' + str(instances))
-'''    
+```
 To Start The Instance
-'''python
+```python
 region = 'us-west-1'
 instances = ['i-12345cb6de4f78g9h', 'i-08ce9b2d7eccf6d26']
 ec2 = boto3.client('ec2', region_name=region)
@@ -310,5 +310,4 @@ ec2 = boto3.client('ec2', region_name=region)
 def lambda_handler(event, context):
     ec2.start_instances(InstanceIds=instances)
     print('started your instances: ' + str(instances))
-'''    
-    
+```
