@@ -1,7 +1,7 @@
 ![2024-10-01](https://github.com/user-attachments/assets/58f5f930-ed6d-4f75-a615-ea2018fa1a64)
 
 # AWS-Projects
-Developed a scalable, secure, and cost-effective cloud infrastructure on AWS, leveraging services like EC2, S3, RDS, and Lambda for optimized performance and reliability.
+Developed a scalable, secure, and cost-effective cloud infrastructure on AWS, leveraging services like EC2, S3, RDS, and Lambda for optimized performance and reliability...
 
 # About AWS
 AWS (Amazon Web Services) projects typically revolve around the deployment, management, and scaling of cloud-based applications and infrastructure. Here are some general categories of AWS projects, along with a brief description of each:
