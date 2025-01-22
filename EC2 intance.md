@@ -1,4 +1,4 @@
-Here are the short steps to set up an EC2 instance:
+# Here are the short steps to set up an EC2 instance:
 
 1. **Sign in to AWS**: Go to the AWS website and log in to your account.
 
